@@ -2,6 +2,20 @@ document.getElementById("password-btn").addEventListener("click", function() {
   getPasswordOptions();
 });
 
+var values = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"#$%&()*+,-./:;<=>?@[]^_`{|}~';
+var password ="";
+var complexity=[]
+
+for (var i = 0; i <=complexity.length; i++) {
+  password = password+values.charAt(Math.floor(Math.random()))
+
+  
+}
+
+document.getElementById("password").values= password;
+
+console.log(password)
+
 function getPasswordOptions() {
   var length = parseInt(
     prompt("How many characters would you like your password to contain?")
@@ -21,7 +35,7 @@ function getPasswordOptions() {
     alert("Password length must be less than 128");
     return;
   }
-
+  /////////////////////////////////////////////////////////////////////////
   var specialChars = confirm("Would you like to use special character?");
 
   var numericChars = confirm("Would you like to use numeric character?");
@@ -47,6 +61,5 @@ function getPasswordOptions() {
   //   uppercaseChars,
   //   lowercaseChars
   // };
-
   return passwordOptions;
 }

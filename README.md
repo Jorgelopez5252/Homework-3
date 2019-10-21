@@ -16,11 +16,8 @@ Broken password generator I could not fix to save my own life, does not generate
 ​
 ### Screenshots
 ​
-![Image](assets/images/Capture.png)
+![Image](c:/user/Jorge/code/homework/Thor-sierra/capture.png)
 ​
-![Image](assets/images/Capture.png)
-​
-![Image](assets/images/Capture3.png)
 ### Link
 Check it out! 
 https://jorgelopez5252.github.io/Homework-3/
